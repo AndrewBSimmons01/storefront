@@ -1,0 +1,36 @@
+
+.divleft
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0 px;
+    margin: 0px;
+    padding: 2 px;
+    background-color:powderblue;
+    border: white;
+}
+.divright
+{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    left: 200px;
+    top: 7px;
+    margin: 0px;
+    padding: 0 px;
+    background-color:purple;
+    border: solid 1px white
+}
+.divleftnav
+{
+    position: absolute;
+    top: 207px;
+    height: 397px;
+    width: 197px;
+    margin: 0px;
+    padding: 2px;
+    left: 0px;
+    background-color: yellowgreen;
+}
