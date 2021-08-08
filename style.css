@@ -33,11 +33,7 @@
     background-color: rgb(49, 49, 49);
     text-align: center;
 }
-.divleftnav p
-{
-    font-size: large;
-    font-family: 'Red Hat Display', sans-serif;
-}
+
 .divleftnav2 
 {
     position:absolute;
@@ -48,46 +44,50 @@
     margin:0px;
     padding: 2px;
     background-color: rgb(49, 49, 49);
-    text-align: center;
+    
+  }
+  .divleftnav2 a
+  {
+    font-size: medium;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: small;
+    text-align: left;
+    color: rgb(110, 110, 110);
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    top:-60px;
+    left:0px;
   }
 
 
 }
 
 
-a.nav2links1:hover
-{
-    color:rgb(16, 87, 7);
-    border: rgb(16, 87, 7) solid 2px; 
-}
-a.nav2links1:visited
-{
-   color: rgb(49, 49, 49) 
-}
+
+
 .divright2
 {
     position:absolute;
     top: 620px;
-    left: 202px;
+    left: 15px;
     height: 300px;
-    width: 90%;
+    width: 1955;
     margin:0px;
     padding: 0px;
-    background-color: rgb(49, 49, 49);   
+    background-color: rgb(49, 49, 49);
+      
 }
 .divright
 {
     height: 600px;
-    width: 90%;
+    width: 1710px;
     position: absolute;
     left: 201px;
     top: 21px;
     margin: 0px;
     padding: 0 px;
-    background-color:purple;
-    z-index: 0;
+ 
+ 
 }
 .headerimagetruck
 {
@@ -171,50 +171,59 @@ a.headerbutton1:hover
 a.navlinks1
 {
     display: inline-block;
-    padding: .3em;
-    border:1 px solid rgb(170, 169, 169);
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
     border-radius: 2px;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 300;
+    font-size: larger;
     color: rgb(110, 110, 110);
+    position: relative;
+    top: 40px
 }
 a.navlinks1:hover
 {
     color:rgb(16, 87, 7);
-    border: rgb(16, 87, 7) solid 2px; 
+    border: rgb(16, 87, 7) solid 2px;
+    place-content: center; 
 }
 
-.nav2links p a
+.sx9:hover
 {
-    font-size: medium;
-    font-family: 'Red Hat Display', sans-serif;
-    text-align: left;
-    color: rgb(110, 110, 110)
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px;
 }
-.divleftnav2 p a
+.sx9 a:hover
+{
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px;
+}
+
+.divleftnav2
 {
     text-align: left;
     position:absolute;
-    margin:2px;
+    margin:0px;
     padding: 4px;
     background-color: rgb(49, 49, 49);
     font-family: 'Red Hat Display', sans-serif;
     font-size: small;
+    top:622px;
+    left:0px;
+    height:300px;
+    width:300px
 }
-.divleftnav2
-{
-    place-content: left;
-    text-align: left
-}
+
 
 .divright2
 {
     position:absolute;
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(110, 110, 110);
-    top:50
+    top:620px
     
 
 }
@@ -226,6 +235,7 @@ a.navlinks1:hover
     list-style-type:none;
     font-family: 'Red Hat Display', sans-serif;
     font-size: large;
+    background-color: rgb(49, 49, 49);
 
 }
 .divright2 a
@@ -233,62 +243,95 @@ a.navlinks1:hover
     color: rgb(110, 110, 110);
     font-size:large;
     text-decoration: none
+    background-color: rgb(49, 49, 49);
+
 }
 .lowerlinks2
 {
     position:absolute;
     top:70px;
     left:700px;
+    background-color: rgb(49, 49, 49);
 }
 .lowerlinks2 ul
 {
     border:rgba(245, 255, 250, 0.116) 3px solid;
+    background-color: rgb(49, 49, 49);
 }
 .sx9l
 {
-    top:10px;
-    left:700px;
+    top:25px;
+    left:790px;
     position: absolute;
+    background-color: rgb(49, 49, 49);
 }
-.sx9l ul
+.sx9l:hover
 {
-
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px;
+}
+.sx9
+{
+    text-align: center;
+    top:12px;
+    left: 80px;
+    position: absolute;
+    background-color: rgb(49, 49, 49);
+}
+.sx9 a :hover
+{
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px;  
 }
 .sx10l
 {
     margin-left: auto;
     position:absolute;
-    top: 60px;px;
+    top: 60px;
+    font-size: large;
+    left:-100px
 }
-.sx10
+.sx10 
 {
     position: absolute;
     top:10px;
-    left:1250px;
+    left:1299px;
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(110, 110, 110);
+    background-color: rgb(49, 49, 49);
 }
-.sx9
+.sx10link
 {
-    left:180px;
     position: absolute;
-    top:10px
+    left:-10px;
+    top:15px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: rgb(49, 49, 49);
+
+}
+.sx9 a
+{
+    left:280px;
+    position: absolute;
+    top:10px;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
 }
 
 .productdiv
 {
     background-color: rgba(1, 12, 2, 0.829);
     height:200px;
-    width:1915px;
+    width:1955px;
     position:absolute;
     top:290px;
-    left:-1452px
+    left:-1350px
 }
 .divider
 {
     background-color: rgba(2, 8, 4, 0.938);
     height:10px;
-    width:1915px;
+    width:1955px;
     position:absolute;
     top:0px
 }
@@ -345,10 +388,39 @@ a.navlinks1:hover
     top:0px;
     left: 1190px
 }
+
 .smallinfolinks2 li
 {
     padding-bottom: 3px;
 }
+
+.lowerlinks1 
+{
+    position: absolute;
+    top:70px;
+    left:290px;
+    background-color: rgb(49, 49, 49);
+}
+.sx10link:hover
+{
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px;
+}
+.exp
+{
+    height:300px;
+    width:1707px;
+    position: absolute;
+    top: -300px;
+    left: 248px;
+    background-color:rgb(49, 49, 49);
+    z-index: -1;
+}
+.button
+{
+    padding:3px;
+}
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
