@@ -21,19 +21,24 @@
     z-index: 1;
 }
 
-.divleftnav
+.divleftnav 
 {
     position: absolute;
-    top: 207px;
-    height: 410px;
-    width: 197px;
+    top: 200px;
+    height: 420px;
+    width: 200px;
     margin: 0px;
     padding: 2px;
     left: 0px;
     background-color: rgb(49, 49, 49);
     text-align: center;
 }
-.divleftnav2
+.divleftnav p
+{
+    font-size: large;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.divleftnav2 
 {
     position:absolute;
     top: 620px;
@@ -44,19 +49,22 @@
     padding: 2px;
     background-color: rgb(49, 49, 49);
     text-align: center;
-  
-}
-.nav2links1
-{
     font-family: 'Red Hat Display', sans-serif;
-    color: whitesmoke;
-    background-color: rgb(49, 49, 49);
-    font-size: x-large;
-    padding: 5px;
-    text-decoration: none;
-    list-style-type: none;
-    height:fit-content
+    font-size: small;
+  }
 
+
+}
+
+
+a.nav2links1:hover
+{
+    color:rgb(16, 87, 7);
+    border: rgb(16, 87, 7) solid 2px; 
+}
+a.nav2links1:visited
+{
+   color: rgb(49, 49, 49) 
 }
 .divright2
 {
@@ -171,18 +179,176 @@ a.navlinks1
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 300;
     color: rgb(110, 110, 110);
-    text-align: right;
-    transition: all .2s;
-    z-index: 1;
-    font-size: xx-large;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    place-content: right;
 }
 a.navlinks1:hover
 {
     color:rgb(16, 87, 7);
     border: rgb(16, 87, 7) solid 2px; 
 }
+
+.nav2links p a
+{
+    font-size: medium;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: left;
+    color: rgb(110, 110, 110)
+}
+.divleftnav2 p a
+{
+    text-align: left;
+    position:absolute;
+    margin:2px;
+    padding: 4px;
+    background-color: rgb(49, 49, 49);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: small;
+}
+.divleftnav2
+{
+    place-content: left;
+    text-align: left
+}
+
+.divright2
+{
+    position:absolute;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(110, 110, 110);
+    top:50
+    
+
+}
+.divright2 ul
+{
+    border:rgba(245, 255, 250, 0.116) 3px solid;
+    width:200px;
+    font-size: medium;
+    list-style-type:none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: large;
+
+}
+.divright2 a
+{
+    color: rgb(110, 110, 110);
+    font-size:large;
+    text-decoration: none
+}
+.lowerlinks2
+{
+    position:absolute;
+    top:70px;
+    left:700px;
+}
+.lowerlinks2 ul
+{
+    border:rgba(245, 255, 250, 0.116) 3px solid;
+}
+.sx9l
+{
+    top:10px;
+    left:700px;
+    position: absolute;
+}
+.sx9l ul
+{
+
+}
+.sx10l
+{
+    margin-left: auto;
+    position:absolute;
+    top: 60px;px;
+}
+.sx10
+{
+    position: absolute;
+    top:10px;
+    left:1250px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(110, 110, 110);
+}
+.sx9
+{
+    left:180px;
+    position: absolute;
+    top:10px
+}
+
+.productdiv
+{
+    background-color: rgba(1, 12, 2, 0.829);
+    height:200px;
+    width:1915px;
+    position:absolute;
+    top:290px;
+    left:-1452px
+}
+.divider
+{
+    background-color: rgba(2, 8, 4, 0.938);
+    height:10px;
+    width:1915px;
+    position:absolute;
+    top:0px
+}
+
+.footer2 a
+{
+    background-color: rgba(243, 236, 236, 0);
+    height:20px;
+    width:100px;
+    top:170px;
+    position: absolute; 
+    text-align: center
+}
+.bottomlink1
+{
+    position: absolute;
+    left: 750px;
+    top:105px;
+    Width:100px;
+}
+.bottomlink2
+{
+    position: absolute;
+    top:105px;
+    left:900px
+}
+.bottomlink3
+{
+    position: absolute;
+    top:105px;
+    left:1050px
+}
+.divider2
+{
+    background-color: rgba(2, 8, 4, 0.301);
+    height:10px;
+    width:1915px;
+    position:absolute;
+    top:150px
+}
+.smallinfolinks
+{
+    position:absolute;
+    top:0px;
+    left: 640px
+}
+.smallinfolinks li
+{
+    padding-bottom: 3px;
+}
+.smallinfolinks2
+{
+    position:absolute;
+    top:0px;
+    left: 1190px
+}
+.smallinfolinks2 li
+{
+    padding-bottom: 3px;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
